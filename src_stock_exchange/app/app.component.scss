@@ -1,0 +1,17 @@
+main{
+    margin: 20px;
+}
+
+.position-columns{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 12px;
+   margin-top: 8px;
+   margin-bottom: 8px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}

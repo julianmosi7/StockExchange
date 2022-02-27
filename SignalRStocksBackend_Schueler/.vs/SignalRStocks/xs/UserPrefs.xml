@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{84B693F6-7884-4D28-A6DD-2951E5AA711F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SignalRStocks/Controllers/StockController.cs">
+    <Files>
+      <File FileName="SignalRStocks/Hubs/StockHub.cs" Line="26" Column="10" />
+      <File FileName="SignalRStocks/Controllers/StockController.cs" Line="55" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SignalRStocks" expanded="True">
+            <Node name="SignalRStocks" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="StockController.cs" selected="True" />
+              </Node>
+              <Node name="Dtos" expanded="True" />
+              <Node name="Entities" expanded="True" />
+              <Node name="Hubs" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SignalRStocks PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

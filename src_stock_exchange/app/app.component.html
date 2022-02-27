@@ -1,0 +1,49 @@
+<main>
+    <h1>Stock Exchange</h1>
+    <div class="position-columns">
+        <button mat-raised-button color="warn" (click)="connect()">{{buttonName}}</button>
+         <a>Connected clients: {{connectedClients}}</a>
+    </div>
+    <mat-divider></mat-divider>
+
+    <div class="position-columns">
+        <mat-form-field class="mat-form-field-username">
+            <mat-label>Username</mat-label>
+            <input matInput placeholder="Hansi" [(ngModel)]="username">
+        </mat-form-field>
+        <a>Cash: {{cashAmount | number:'.2-2':'en-US'}}</a>
+    </div>
+    <mat-divider></mat-divider>
+
+    <div class="position-columns">
+        <mat-form-field appearance="fill">
+            <mat-label>Share</mat-label>
+            <mat-select [(value)]="shareName">
+                <mat-option *ngFor="let share of shares" [value]="share.name">
+                    {{share.name}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field class="mat-form-field-shareValue">
+            <mat-label>Amount</mat-label>
+            <input type="number" matInput [(ngModel)]="shareValue">
+        </mat-form-field>
+        <button mat-stroked-button color="primary" (click)="onBuy()">Buy</button>
+        <button mat-stroked-button color="accent" (click)="onSell()">Sell</button>
+    </div>
+    <mat-divider></mat-divider>
+
+    <div class="grid-container">
+        <share-table></share-table>
+        <line-chart></line-chart>
+    </div>
+    
+    
+
+    <mat-divider></mat-divider>
+
+   <div *ngFor='let log of logs'>
+       <p>{{log}}</p>
+   </div>
+
+</main>
